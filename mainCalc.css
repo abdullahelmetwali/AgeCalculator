@@ -94,7 +94,8 @@ footer{
 a{
     text-decoration: none;
     font-size: 20px;
-    font-family: Popp;
+    font-family: 'Poppins', sans-serif;
+    font-style : italic;
     font-weight: bolder;
     color: #116466;
 }
