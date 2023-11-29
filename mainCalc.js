@@ -6,9 +6,6 @@ let monthsOP = document.querySelector(".months")
 let yearsOP = document.querySelector(".years")
 let imgSubmit = document.querySelector(".img")
 let input = document.querySelector("input");
-// let imgP = document.querySelector("img")
-// imgP.src = "images/icon-arrow.svg"
-
 imgSubmit.onclick = function(){
 if(daysInput.value === "" ||
    monthsInput.value === "" ||
