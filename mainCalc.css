@@ -71,7 +71,7 @@ hr{
     border: 0px solid #116466;
     cursor: pointer;
 }
-.img object{
+.img object svg{
     width: 35px;
 }
 .cont{
@@ -120,7 +120,7 @@ a{
     footer{
         margin: 10px 0 0 0 ;
     }
-    .img object{
+    .img object svg{
     width: 30px;
 }
 
