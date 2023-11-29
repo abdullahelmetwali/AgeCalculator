@@ -71,7 +71,7 @@ hr{
     border: 0px solid #116466;
     cursor: pointer;
 }
-.img img{
+.img object{
     width: 35px;
 }
 .cont{
@@ -120,5 +120,8 @@ a{
     footer{
         margin: 10px 0 0 0 ;
     }
+    .img object{
+    width: 30px;
+}
 
 }
