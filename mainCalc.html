@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="mainCalc.css">
+  <title>Age calculator app</title>
+</head>
+<body>
+  <section class="grand">
+    <section class="father">
+    <section class="theCalc">
+  <label class="theInDay">
+    <p>DAY</p>
+    <input type="number" class="daysInput" required>
+    <p class="errorD">*Must be valid</p>
+  </label>
+  <label class="theInMon">
+    <p>MONTH</p>
+    <input type="number" class="monthsInput" required>
+    <p  class="errorM">*Must be valid</p>
+  </label>
+  <label class="theInYear">
+    <p>YEAR</p>
+    <input type="number" class="yearsInput" required>
+    <p class="errorY">*Must be in past</p>
+  </label>
+</section>
+<br>
+<hr>
+ <button class="img" type="submit">
+  <img src="assets/images/icon-arrow.svg" value="submit">
+ </button>
+ <div class="cont">
+  <p><span class="years">--</span> YEARS</p>
+  <p><span class="months">--</span> MONTHS</p>
+  <p><span class="days">--</span> DAYS</p>
+ </div>
+</section>
+<footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> .
+     Coded by <a href="https://www.frontendmentor.io/profile/abdullahelmetwali" target="_blank">Abdullah ElMetwali</a>
+</footer>
+</section>
+  <script src="mainCalc.js"></script>
+</body>
+</html>
