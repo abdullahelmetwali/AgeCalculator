@@ -4,8 +4,8 @@ let yearsInput = document.querySelector(".yearsInput")
 let daysOP = document.querySelector(".days")
 let monthsOP = document.querySelector(".months")
 let yearsOP = document.querySelector(".years")
-let svgSubmit = document.querySelector("svg")
-svgSubmit.onclick = function(){
+let imgSubmit = document.querySelector(".img")
+imgSubmit.onclick = function(){
 if(daysInput.value === "" ||
    monthsInput.value === "" ||
    yearsInput.value === ""){
